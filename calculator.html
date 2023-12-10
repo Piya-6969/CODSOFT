@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <div id="cal">
+        
+        <input type="text" id="display" readonly>
+        <div class="button-container">
+
+            <button class="button" onclick="
+                CurretValue= '';
+                document.querySelector('#display').value =CurretValue;
+
+                ">c</button>
+                
+            <button class="button" onclick="
+            CurretValue= CurretValue + 1;
+            document.querySelector('#display').value =CurretValue;
+            ">1</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 2;
+            document.querySelector('#display').value =CurretValue;
+            ">2</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 3;
+            document.querySelector('#display').value =CurretValue;
+            ">3</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 4;
+            document.querySelector('#display').value =CurretValue;
+            ">4</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 5;
+            document.querySelector('#display').value =CurretValue;
+            ">5</button> 
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 6;
+            document.querySelector('#display').value =CurretValue;
+            ">6</button> 
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 7;
+            document.querySelector('#display').value =CurretValue;
+            ">7</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 8;
+            document.querySelector('#display').value =CurretValue;
+            ">8</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + 9;
+            document.querySelector('#display').value =CurretValue;
+            ">9</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + '+';
+            document.querySelector('#display').value =CurretValue;
+            ">+</button>
+            
+            <button class="button" onclick="
+            CurretValue= CurretValue + '-';
+            document.querySelector('#display').value =CurretValue;
+            ">-</button>
+            
+            <button class="button" onclick="
+            CurretValue= CurretValue + '*';
+            document.querySelector('#display').value =CurretValue;
+            ">*</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + '/';
+            document.querySelector('#display').value =CurretValue;
+            ">/</button>
+
+            <button class="button" onclick="
+            CurretValue= CurretValue + '.';
+            document.querySelector('#display').value =CurretValue;
+            ">.</button>
+            <button class="button" onclick="
+            
+            CurretValue= eval(CurretValue);
+            document.querySelector('#display').value =CurretValue;
+            ">=</button>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        let CurretValue = "";
+        document.querySelector('#display').value =CurretValue;
+
+
+    </script>
+    
+</body>
+</html>
